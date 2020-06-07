@@ -272,7 +272,6 @@ div.kk-channel p.has-text-color a {
 	background-color: #64bc46;
 }
 
-
 /* KK Program */
 .wp-block-group.alignfull.block-overlay {
 	position: absolute;
@@ -509,6 +508,34 @@ span#nf-form-title-2 {
 
 input#nf-field-17 {
 	background: #64bc46;
+	border-radius: 34px;
+}
+
+/* widget */
+.widget-content li a {
+	color: #64bc46;
+}
+
+h2.widget-title.subheading.heading-size-3 {
+	color: #5C40C6;
+}
+
+.widget-content .search-form input.search-submit {
+	background-color: #64bc46;
+}
+
+/* PAGES */
+.wp-block-group.alignfull.pages {
+	margin-top: 10rem;
+}
+
+.wp-block-group.alignfull.pages-body {
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+p.p-body.alignwide {
+	margin-left: 7rem;
 }
 
 /* Testimonials */
@@ -528,6 +555,10 @@ input#nf-field-17 {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	font-size: 16pt;
+}
+
+.wpmtst-testimonial-content.testimonial-content p a {
+	color: black;
 }
 
 .more-icon::after {
@@ -563,6 +594,10 @@ input#nf-field-17 {
 	margin: 0 0 0 18px;
 }
 
+div#foogallery-gallery-17 {
+	margin-left: 79px;
+}
+
 /*.p-margin {
 	margin-left: 33px;
 	margin-top: -59px;
@@ -577,21 +612,7 @@ input#nf-field-17 {
 } */
 
 figure.wp-block-image.size-large.img-left img {
-    margin-left: -31rem;
-}
-
-/* PAGES */
-.wp-block-group.alignfull.pages {
-	margin-top: 10rem;
-}
-
-.wp-block-group.alignfull.pages-body {
-    padding-left: 8rem;
-    padding-right: 8rem;
-}
-
-p.p-body.alignwide {
-	margin-left: 7rem;
+	margin-left: -31rem;
 }
 
 /*** Original style ***/
@@ -7544,18 +7565,6 @@ a.to-the-top>* {
 	/* PAGES */
 	.wp-block-group.alignfull.pages {
 		margin-top: 5rem;
-	}
-
-	figure.wp-block-image.size-large img.wp-image-63 {
-		margin-left: 0rem;
-	}
-
-	.wp-block-group.alignfull.pages-body {
-		padding-left: 2rem;
-	}
-
-	p.p-body.alignwide {
-		margin-left: -2rem;
 	}
 
 	/* TEXT */

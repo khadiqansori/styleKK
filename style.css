@@ -595,7 +595,7 @@ p.p-body.alignwide {
 }
 
 div#foogallery-gallery-17 {
-	margin-left: 79px;
+	margin-left: 0px;
 }
 
 /*.p-margin {
@@ -613,6 +613,10 @@ div#foogallery-gallery-17 {
 
 figure.wp-block-image.size-large.img-left img {
 	margin-left: -31rem;
+}
+
+figure.wp-block-gallery.aligncenter.columns-3.is-cropped.img-left {
+	margin-left: 0rem;
 }
 
 /*** Original style ***/
@@ -1470,7 +1474,7 @@ table {
 	border-spacing: 0;
 	empty-cells: show;
 	font-size: 1.6rem;
-	margin: 4rem 0;
+	margin: 0rem 0;
 	max-width: 100%;
 	overflow: hidden;
 	width: 100%;
@@ -7080,6 +7084,10 @@ a.to-the-top>* {
 		margin-left: 0rem;
 	}
 
+	.header-title {
+		padding-top: 40px;
+	}
+
 	.wp-block-group.alignfull.pages-body {
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -7097,8 +7105,29 @@ a.to-the-top>* {
 		font-size: 6pt;
 	}
 
+	table {
+		border: 0.1rem solid #dcd7ca;
+		border-collapse: collapse;
+		border-spacing: 0;
+		empty-cells: show;
+		font-size: 1.6rem;
+		margin: 4rem 0;
+		max-width: 100%;
+		overflow: hidden;
+		width: 100%;
+	}
+
 	figure.wp-block-table.alignwide.is-style-stripes {
 		margin-bottom: -7rem;
+	}
+
+	div#nf-form-2-cont {
+		margin-left: 0rem;
+	}
+
+	img.wp-image-58 {
+		margin-left: 1rem;
+		margin-bottom: 4rem;
 	}
 
 	/* Parallax */

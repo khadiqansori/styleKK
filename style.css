@@ -8317,7 +8317,7 @@ a.to-the-top>* {
 	}
 
 	p.p-body.alignfull {
-		margin-left: -2rem;
+		margin-left: 0rem;
 	}
 
 	/* ENTRY */
@@ -8477,7 +8477,7 @@ a.to-the-top>* {
 
 	.wp-block-group.alignfull.block-overlay {
 		position: absolute;
-		margin-top: -32rem;
+		margin-top: -15rem;
 	}
 
 	.program-intro {
@@ -8817,7 +8817,7 @@ a.to-the-top>* {
 	}
 
 	p.p-body.alignfull {
-		margin-left: -2rem;
+		margin-left: 0rem;
 	}
 
 	/* ENTRY */

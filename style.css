@@ -132,6 +132,7 @@ figure.wp-block-image.size-large.bush.alignfull {
 
 .p-body {
 	font-size: 14pt;
+	color: #262626;
 }
 
 p.has-text-color.the-minion.p-heading {
@@ -630,17 +631,17 @@ body {
 	border: none;
 	margin: 0;
 	padding: 0;
-	color: #444444;
+	color: #262626;
 }
 
 .header-footer-group,
 body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
-	color: #444444;
+	color: #262626;
 }
 
 p {
-	color: #444444;
+	color: #262626;
 }
 
 h1,

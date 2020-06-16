@@ -8712,6 +8712,11 @@ a.to-the-top>* {
 		width: auto;
 	}
 
+	/* SIDEBAR */
+	.admin-bar .menu-modal {
+		top: 65px;
+	}
+
 	/* PAGES */
 	.wp-block-group.alignfull.pages {
 		margin-top: 5rem;
@@ -8924,7 +8929,7 @@ a.to-the-top>* {
 	}
 
 	.button-headline {
-		margin-top: 0px;
+		margin-top: 2rem;
 	}
 
 	a.wp-block-button__link.has-background {

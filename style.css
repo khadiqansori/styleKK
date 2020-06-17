@@ -277,6 +277,14 @@ div.kk-channel p.has-text-color a {
 	background-color: #64bc46;
 }
 
+.wp-block-button.btn-channel {
+	margin-top: 1rem;
+}
+
+.btn-channel a.wp-block-button__link.has-background {
+	padding: 10px 1.44em;
+}
+
 /* KK Program */
 .wp-block-group.alignfull.block-overlay {
 	position: absolute;
@@ -2464,7 +2472,7 @@ button.close-nav-toggle {
 	font-size: 1.6rem;
 	font-weight: 500;
 	justify-content: flex-end;
-	padding: 3.1rem 0;
+	padding: 2rem 0;
 	width: 100%;
 }
 
@@ -2503,9 +2511,10 @@ button.close-nav-toggle .toggle-text {
 
 .modal-menu>li>a,
 .modal-menu>li>.ancestor-wrapper>a {
-	font-size: 2rem;
+	font-size: 14pt;
 	font-weight: 700;
 	letter-spacing: -0.0375em;
+	color: #7650a1;
 }
 
 .modal-menu>li:last-child {
@@ -2520,7 +2529,7 @@ button.close-nav-toggle .toggle-text {
 
 .modal-menu a {
 	display: block;
-	padding: 2rem 2.5rem;
+	padding: 1.5rem 2.5rem;
 	text-decoration: none;
 	width: 100%;
 }
@@ -5519,7 +5528,7 @@ a.to-the-top>* {
 
 	button.close-nav-toggle {
 		font-size: 1.8rem;
-		padding: 4rem 0;
+		padding: 2rem 0;
 	}
 
 	button.close-nav-toggle svg {
@@ -5538,7 +5547,7 @@ a.to-the-top>* {
 
 	.modal-menu>li>a,
 	.modal-menu>li>.ancestor-wrapper>a {
-		font-size: 2.4rem;
+		font-size: 16pt;
 		padding: 1.5rem 0;
 		color: #7650a1;
 	}
@@ -6431,7 +6440,7 @@ a.to-the-top>* {
 		padding: 0;
 		transform: translateX(20rem);
 		transition: transform 0.2s ease-in, opacity 0.2s ease-in;
-		width: 50rem;
+		width: 38rem;
 	}
 
 	.menu-modal.active .menu-modal-inner {

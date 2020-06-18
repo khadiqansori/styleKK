@@ -504,25 +504,36 @@ div#foogallery-gallery-838 {
 }
 
 /* Register Contact */
-button#wpforms-submit-639 {
-	margin-top: 20px;
-}
-
 img.wp-image-58 {
 	margin-left: 17rem;
 }
 
-div#nf-form-2-cont {
-	margin-left: 28rem;
-}
-
-span#nf-form-title-2 {
-	display: none;
-}
-
-input#nf-field-17 {
-	background: #64bc46;
+button#wpforms-submit-481 {
+	background-color: #7650A1;
+	color: white;
 	border-radius: 34px;
+	padding: 1em 1.44em;
+}
+
+input#wpforms-481-field_3,
+input#wpforms-481-field_6,
+input#wpforms-481-field_7,
+textarea#wpforms-481-field_8,
+input#wpforms-481-field_9,
+input#wpforms-481-field_10,
+input#wpforms-481-field_11,
+select#wpforms-481-field_12,
+select#wpforms-481-field_13,
+select#wpforms-481-field_14,
+input#wpforms-481-field_15,
+select#wpforms-481-field_16 {
+	border-radius: 10px;
+	border: 2px solid #64bc46;
+	color: #262626;
+}
+
+label.wpforms-field-label {
+	color: #262626;
 }
 
 /* widget */
@@ -639,6 +650,13 @@ figure.wp-block-image.size-large.img-left img {
 
 figure.wp-block-gallery.aligncenter.columns-3.is-cropped.img-left {
 	margin-left: 0rem;
+}
+
+.robots-nocontent.sd-block.sd-social.sd-social-icon-text.sd-sharing h3 {
+	font-size: 12pt;
+	font-weight: 200;
+	margin: 0 0;
+	font-family: overpass;
 }
 
 /*** Original style ***/

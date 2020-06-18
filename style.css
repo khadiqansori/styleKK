@@ -542,11 +542,17 @@ label.wpforms-field-label {
 }
 
 h2.widget-title.subheading.heading-size-3 {
-	color: #5C40C6;
+	color: #7650a1;
+	font-size: 16pt;
 }
 
 .widget-content .search-form input.search-submit {
-	background-color: #64bc46;
+	background-color: #7650a1;
+	border-radius: 34px;
+}
+
+.widget-content ul {
+	font-size: 14pt;
 }
 
 /* PAGES */
@@ -4578,10 +4584,13 @@ div.comment:first-of-type {
 
 .comment-respond textarea {
 	height: 15rem;
+	border: 2px solid #64bc46;
 }
 
 .comment-respond #submit {
 	display: block;
+	background-color: #7650a1;
+	border-radius: 34px;
 }
 
 .comment-respond .comments-closed {
@@ -4716,7 +4725,7 @@ div.comment:first-of-type {
 }
 
 .widget li {
-	margin: 2rem 0 0 0;
+	margin: 1rem 0 0 0;
 }
 
 .widget li:first-child,
@@ -4950,7 +4959,8 @@ div.comment:first-of-type {
 /* Widget: Search ---------------------------- */
 
 .widget_search .search-field {
-	border-color: #dedfdf;
+	border: 2px solid #64bc46;
+	border-radius: 10px;
 }
 
 /* Widget: Tag Cloud ------------------------- */
@@ -5165,9 +5175,6 @@ a.to-the-top>* {
 }
 
 @media (min-width: 480px) {
-
-
-
 	/* Blocks -------------------------------- */
 
 	/* BLOCK: BASE ALIGNMENT WIDTH */
@@ -5761,7 +5768,7 @@ a.to-the-top>* {
 	/* SINGLE PAGINATION */
 
 	.pagination-single {
-		font-size: 2.4rem;
+		font-size: 14pt;
 		margin-top: 8rem;
 	}
 
@@ -6268,8 +6275,6 @@ a.to-the-top>* {
 }
 
 @media (min-width: 1000px) {
-
-
 	/* Document Setup ------------------------ */
 
 	/* Helper Classes ------------------------ */
@@ -7085,6 +7090,7 @@ a.to-the-top>* {
 	src: url(./assets/fonts/inter/overpass/Overpass-Regular.ttf);
 }
 
+/* CUSTOM MOBILE */
 @media (max-width: 479px) {
 
 	/* HEADER */
@@ -7334,7 +7340,6 @@ a.to-the-top>* {
 	}
 
 	/* CHANNEL */
-
 	.wp-block-columns.alignfull.channel {
 		/* margin-bottom: 0rem; */
 		padding-left: 2rem;
@@ -7573,6 +7578,24 @@ a.to-the-top>* {
 	div#foogallery-gallery-68 {
 		margin-left: 68px;
 		margin-top: -34px;
+	}
+
+	/* WIDGET */
+	.widget-content ul {
+		font-size: 10pt;
+	}
+
+	h2.widget-title.subheading.heading-size-3 {
+		font-size: 14pt;
+	}
+
+	.widget .widget-title {
+		margin: 0 0 1rem;
+	}
+
+	/* NEXT & PREVIOUS POST */
+	.pagination-single {
+		font-size: 10pt;
 	}
 }
 
